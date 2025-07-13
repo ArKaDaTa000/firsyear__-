@@ -1,7 +1,7 @@
 import java.util.*;
 public class Activity_4
 
-//lemonade serenade woop
+
 {
     public static void main(String[]args)
     {
@@ -14,11 +14,11 @@ public class Activity_4
 
     while(true)
     {
-    choices = sc1.nextLine().toUpperCase(); //all answer small will be correct{uppercase code}
+    choices = sc1.nextLine().toUpperCase(); 
 
     switch(choices)
      {
-     case "YES": //manifesting it works waaa
+     case "YES": 
 
      System.out.println("WELL THEN, THIS QUESTION IS WORTH 85 PTS:");
      System.out.println("1. WHO FOUNDED THE JAVA PROGRAMMING LANGUAGE?");
@@ -27,7 +27,7 @@ public class Activity_4
 
      String name1 = sc2.nextLine().toUpperCase();
 
-     if(name1.equals("JAMES GOSLING"))//java creator, first question?
+     if(name1.equals("JAMES GOSLING"))
          {
     System.out.println("GOOD JOB!, THE NEXT QUESTION IS WORTH 95 PTS:");
 
@@ -35,7 +35,7 @@ public class Activity_4
 
     Scanner sc3 = new Scanner(System.in);
 
-    String name2 = sc3.nextLine().toUpperCase(); // all capital letters answers again
+    String name2 = sc3.nextLine().toUpperCase(); 
 
             if(name2.equals("ANDERS HEJLSBERG"))
             {
@@ -71,7 +71,7 @@ public class Activity_4
         }
     return;
     case "NO":
-    System.exit(0); //exit means to automatically exit -thankyuu jas
+    System.exit(0); 
     default:
     System.out.println("PLEASE FOLLOW THE INSTRUCTION, PLEASE TYPE YES/NO");
     break;
